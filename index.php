@@ -19,11 +19,6 @@ foreach ($domNodeList as $element) {
     }
 }
 
-// foreach ($linkList as $elementossss) {
-//     echo $uri . $elementossss . PHP_EOL;
-//     echo "Trying get from "
-// }
-
 foreach ($linkList as $link) {
     echo "Testando {$uri}{$link}\n";
     $contentRfc = file_get_contents("{$uri}{$link}");
